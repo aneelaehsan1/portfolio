@@ -1,5 +1,5 @@
- *{
-padding: 15px;
+*{
+padding: 5px;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -11,7 +11,7 @@ padding: 15px;
 	color: #fff;
 	font-weight: 200;
 	box-shadow: 0 0 10px black;
-    text-align: right;
+    text-align: center;
 	}
 .cm-e-menu ul {
 	margin: 0; padding: 0;
@@ -63,15 +63,63 @@ padding: 15px;
 .cm-e-menu ul li.topmenu i {
     color: white !important;
 }
-.div1{
-    display: inline-block;
-}
-.div2{
-    display: inline-block;
-}
-.maindiv{
-    display: inline-block;
-}
+.about-us{
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #ddd;
+  }
+  .pic{
+    height: 450px;
+    width:  450px;
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #4070f4;
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .hire{
+    font-size: 18px;
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .hire:hover{
+    background: #000;
+    border: 1px solid #4070f4;
+  }
+
 section {
     height: 100vh;
     width: 100%;
@@ -99,25 +147,26 @@ section {
     cursor: pointer;
     transition: 0.5s;
   }
-  h2 {
+
+h2{
     font-size: 20px;
     font-weight: 600;
     color: #1f194c;
-    margin: 1em 0;
+    margin: 0px !important;
     font-style: bold;
   }
-  h3 {
-    font-size: 17px;
-    font-weight: 500;
-    color: #1f194c;
-  }
-  
-  p {
+
+p {
     color: #575a7b;
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: 0.03em;
   }
+  .section-heading{
+    text-align: center;
+    margin-bottom: 0% !important;
+  }
+  
   .icon-wrapper {
     background-color: #1e2229;
     position: relative;
